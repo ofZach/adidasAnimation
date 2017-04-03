@@ -1,0 +1,16 @@
+<group>
+	<settings>
+		<useOrtho>1</useOrtho>
+		<sliceZpush>54.0816</sliceZpush>
+		<zOffset>-669.388</zOffset>
+		<blurImageAmount>21</blurImageAmount>
+		<numLayers>31</numLayers>
+		<layerMin>0</layerMin>
+		<layerMax>255</layerMax>
+		<polylineSmoothAmount>5</polylineSmoothAmount>
+		<polylineResampleSize>5</polylineResampleSize>
+		<layerPower>2.80051</layerPower>
+		<makeNewLayers>0</makeNewLayers>
+	</settings>
+<group/>
+</group>

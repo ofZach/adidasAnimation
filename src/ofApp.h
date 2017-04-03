@@ -2,6 +2,10 @@
 
 #include "ofMain.h"
 #include "ofxCv.h"
+#include "ofxSVG.h"
+#include "ofxGui.h"
+
+
 
 class ofApp : public ofBaseApp{
 
@@ -22,6 +26,9 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
+    
+    void setupLayers();
+    
     ofxCv::ContourFinder finder;
     
     vector < vector < ofPolyline > > lines;
@@ -34,5 +41,18 @@ class ofApp : public ofBaseApp{
     ofShader gradientShader;
     
     ofImage spot;
+    
+    ofxSVG svg;
+    vector < ofPolyline > svgLines;
+    
+    
+    float minPerim;
+    float maxPerim;
+    
+    
+    ofParameterGroup group;
+    ofxPanel panel;
+    
+    float myTime;
     
 };
